@@ -68,7 +68,7 @@ body {
 #phone div {
 	color: #557c3e;
 	text-align: right;
-	padding-right: 0px;
+	padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
