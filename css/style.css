@@ -79,6 +79,50 @@ body {
 	clear: both;
 	margin-top: -30px;
 }
+.container .jumbotron{
+    box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+
+
+#Gallery-tile, #Films-tile, #Map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border-radius: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#Gallery-tile:hover, #Films-tile:hover, #Map-tile:hover {
+	box-shadow: 0px 1px 5px 1px #cccccc; 
+
+}
+
+#Gallery-tile {
+	background: url("https://149354549.v2.pressablecdn.com/wp-content/uploads/2018/03/5-1.jpg") no-repeat;
+    background-position: center;
+}
+
+#Films-tile {
+	background: url("https://portugalinews.eu/wp-content/uploads/2018/09/film.jpg") no-repeat;
+    background-position: center;
+}
+
+
+
+#Gallery-tile span, #Films-tile span, #Map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
 
 
 
@@ -122,16 +166,12 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 1200px) {
+	.container .jumbotron{
+		background: url("https://img.wallpapersafari.com/desktop/1280/1024/79/35/QW6jLq.jpg") no-repeat;
+		height: 675px;
+	}
+}
 
 
 
@@ -148,7 +188,39 @@ body {
 	height: 100px;
 	margin: 5px 5px 5px 0;
 	}
+	.container .jumbotron{
+		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
+		height: 558px;
 }
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron{
+		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
+		height: 432px;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -193,5 +265,23 @@ body {
     	margin-top: 5px;
     	font-size: .7em;
     	letter-spacing: .1em;
+    }
+
+    #Gallery-tile, #Films-tile {
+    	width: 360px;
+    	margin: 0 auto 15px;
+    } 
+
+}
+
+@media(max-width: 479px) {
+	#Gallery-tile, #Films-tile {
+    	width: 360px;
+    	margin: 0 auto 15px;
+    } 
+
+    .navbar-brand h1{
+    	padding-top: 5px;
+    	font-size: 6vw;
     }
 }
