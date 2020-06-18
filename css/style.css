@@ -134,6 +134,7 @@ body {
 	padding-bottom: 30px;
 	background-color: #222;
 	border-top: 0;
+	text-align: center;
 
 }
 
@@ -163,6 +164,10 @@ body {
 	border: 1px solid #fff;
 	border-radius: 50%;
 	transition: .5s; 
+}
+
+#icon {
+	padding-left: 0px; 
 }
 
 
