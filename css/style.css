@@ -49,7 +49,7 @@ body {
 }
 
 #nav-list a {
-    color: #951C49;
+    color: #951c49;
     text-align: center;
 }
 
@@ -157,6 +157,41 @@ body {
 
 
 @media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+    
+    .navbar-brand h1 {
+    	padding-top: 10px;
+    	font-size: 5vw;
+    }
+    .navbar-brand p {
+    	font-size: .6em;
+    	margin-top: 12px;
+    }
 
+    #collapsable-nav a {
+    	font-size: 1.2em;
+    }
 
+    #collapsable-nav a span {
+    	font-size: 1em;
+    	margin-right: 5px;
+    }
+    #call-btn > a {
+    	font-size: 1.5em;
+    	display: block;
+    	margin: 0px 20px;
+    	padding: 10px;
+    	border: 2px solid #fff;
+    	background-color: #f6b319;
+    	color: #951c49;
+
+    }
+    #xs-help{
+    	margin-top: 5px;
+    	font-size: .7em;
+    	letter-spacing: .1em;
+    }
 }
