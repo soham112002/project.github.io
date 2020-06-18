@@ -191,6 +191,7 @@ body {
 	.container .jumbotron{
 		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
 		height: 558px;
+		background-position: center;
 	}
 
 }
@@ -280,8 +281,9 @@ body {
 
 @media(max-width: 479px) {
 	#Gallery-tile, #Films-tile {
-    	width: 360px;
+    	width: 300px;
     	margin: 0 auto 15px;
+    	height: 300px;
     } 
 
     .navbar-brand h1{
