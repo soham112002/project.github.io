@@ -170,7 +170,6 @@ body {
 	.container .jumbotron{
 		background: url("https://img.wallpapersafari.com/desktop/1280/1024/79/35/QW6jLq.jpg") no-repeat;
 		height: 675px;
-		background-position: center;
 	}
 }
 
@@ -192,7 +191,6 @@ body {
 	.container .jumbotron{
 		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
 		height: 558px;
-		background-position: center;
 	}
 
 }
@@ -268,6 +266,7 @@ body {
     }
     #xs-help{
     	margin-top: 5px;
+    	margin-bottom: 5px;
     	font-size: .7em;
     	letter-spacing: .1em;
     }
