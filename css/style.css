@@ -239,6 +239,7 @@ body {
 	.container .jumbotron{
 		background: url("../images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 675px;
+		width: 1200px;
 	}
 	
 }
@@ -261,6 +262,7 @@ body {
 	.container .jumbotron{
 		background: url("../images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 558px;
+		width: 992px;
 		background-position: center;
 	}
 
@@ -274,8 +276,9 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
-		background: url("images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
+		background: url("../images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 432px;
+		width: auto;
 		
 		
 	}
