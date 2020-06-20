@@ -237,7 +237,7 @@ body {
 
 @media (min-width: 1200px) {
 	.container .jumbotron{
-		background: url("https://img.wallpapersafari.com/desktop/1280/1024/79/35/QW6jLq.jpg") no-repeat;
+		background: url("images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 675px;
 	}
 	
@@ -253,13 +253,13 @@ body {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	#logo-img {
-		background: url("http://i.xp.io/Bhq8VAP.jpg");
+		background: url("images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg");
 	width: 100px;
 	height: 100px;
 	margin: 5px 5px 5px 0;
 	}
 	.container .jumbotron{
-		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
+		background: url("images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 558px;
 		background-position: center;
 	}
@@ -274,7 +274,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
-		background: url("https://img.wallpapersafari.com/tablet/768/1024/79/35/QW6jLq.jpg") no-repeat;
+		background: url("images/Screenshot_2020-06-20-13-01-16-164_com.miui.videoplayer.jpg") no-repeat;
 		height: 432px;
 		
 		
