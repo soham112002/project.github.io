@@ -1,11 +1,11 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #d4d4dc;
+	background-color: #61122f;
 	font-family: sans-serif;
 }
 #header-nav {
-	background-color: #0009;
+	background-color: #f6b319;
 	border-radius: 0;
 	border: 0; 
 }
@@ -15,8 +15,13 @@ body {
 	height: 150px;
 	margin: 10px 15px 10px 0;
 }
+
+.navbar-brand { 
+	padding-top: 25px;
+}
+
 .navbar-brand h1 {
-	color: #fff;
+	color: #557c3e;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 0;
@@ -24,8 +29,13 @@ body {
 	text-shadow: 1px 1px 1px #222;
 	line-height: .75;
 }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
 .navbar-brand p {
-    color: #fff;
+    color: #000;
     font-size: .7em;
     margin-top: 15px;
 }
@@ -39,13 +49,12 @@ body {
 }
 
 #nav-list a {
-    color: #fff;
+    color: #951c49;
     text-align: center;
 }
 
 #nav-list a:hover{
 	font-size: 1.8em;
-	background-color: #f39d1a;
 }
 
 #phone {
@@ -57,13 +66,13 @@ body {
 	padding-bottom: 0;
 }
 #phone div {
-	color: #fff;
+	color: #557c3e;
 	text-align: right;
 	padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #fff;
+	border: 1px solid #61122f;
 }
 
 .navbar-header button.navbar-toggle {
@@ -161,9 +170,32 @@ body {
 	padding-left: 0px; 
 }
 
+.image {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px; 
+}
 
+.image span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
 
+}
 
+.image:hover{
+	text-shadow: 0 1px 5px 1px #cccccc;
+}
 
 
 
@@ -332,5 +364,13 @@ body {
     .navbar-brand h1{
     	padding-top: 5px;
     	font-size: 6vw;
+    }
+    .col-xxs-12{
+    	position: relative;
+    	min-height: 1px;
+    	padding-right: 15px;
+    	padding-left: 15px; 
+    	float: left;
+    	width: 100%;
     }
 }
