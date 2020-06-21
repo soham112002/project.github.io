@@ -427,3 +427,14 @@ body {
     	width: 100%;
     }
 }
+
+@media(min-width: 480)and(max-width: 560px) {
+	.image {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 380px;
+	height: 380px;
+	margin: 0 auto 15px; 
+}
+}
