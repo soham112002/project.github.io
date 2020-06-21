@@ -228,7 +228,19 @@ body {
 	text-shadow: 0 1px 5px 1px #cccccc;
 }
 
+.about {
+	text-align: center;
+	color: #fff;
+}
 
+.about span {
+	color: #66FCF1; 
+}
+
+.akshay {
+	background: url("../images/IMG_20200402_223347-min.jpg") no-repeat;
+	background-size: cover;
+}
 
 
 
