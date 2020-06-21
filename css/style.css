@@ -147,10 +147,12 @@ body {
 
 #hours #address {
 	line-height: 2;
+
 }
 
 #hours>span, #address>span {
 	font-size: 3em;
+	color: #66FCF1;
 
 }
 #address p {
