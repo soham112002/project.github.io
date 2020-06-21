@@ -236,9 +236,11 @@ body {
 .about span {
 	color: #66FCF1; 
 }
+.about:hover{
+	text-decoration: none;
+}
 
-.akshay {
-	background: url("../images/IMG_20200402_223347-min.jpg") no-repeat;
+.akshay img {
 	background-size: cover;
 }
 
