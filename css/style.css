@@ -404,6 +404,15 @@ body {
     .container .jumbotron{
     	background-position: center;
     }
+    .image {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 380px;
+	height: 380px;
+	margin: 0 auto 15px; 
+}
+
 
 }
 
@@ -426,10 +435,7 @@ body {
     	float: left;
     	width: 100%;
     }
-}
-
-@media(min-width: 480)and(max-width: 560px) {
-	.image {
+    .image {
 	position: relative;
 	border: 2px solid #3F0C1F;
 	overflow: hidden;
@@ -437,4 +443,6 @@ body {
 	height: 380px;
 	margin: 0 auto 15px; 
 }
+
 }
+
