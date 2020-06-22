@@ -175,14 +175,7 @@ body {
 	padding-left: 0px; 
 }
 
-.image {
-	position: relative;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-	width: 500px;
-	height: 500px;
-	margin: 0 auto 15px; 
-}
+
 
 .image span {
 	position: absolute;
@@ -289,7 +282,14 @@ body {
 		background-size: cover;
 	}
 
-	
+	.image {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto 15px; 
+}
 }
 
 
@@ -442,6 +442,7 @@ body {
 	width: 300px;
 	height: 300px;
 	margin: 0 auto 15px; 
+
 }
 
 }
